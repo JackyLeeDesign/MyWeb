@@ -1,0 +1,986 @@
+/* -----------------------------------------------*/
+/* ALL( Screen > 1029px 套用以下CSS )--------------*/
+/* -----------------------------------------------*/
+/*----- style -----*/
+.wd5 {
+  width: 5%;
+}
+
+.wd10 {
+  width: 10%;
+}
+
+.wd15 {
+  width: 15%;
+}
+
+.wd18 {
+  width: 18%;
+}
+
+.wd20 {
+  width: 20%;
+}
+
+.wd25 {
+  width: 25%;
+}
+
+.wd30 {
+  width: 30%;
+}
+
+.wd35 {
+  width: 35%;
+}
+
+.wd40 {
+  width: 40%;
+}
+
+.wd45 {
+  width: 45%;
+}
+
+.wd50 {
+  width: 50%;
+}
+
+.wd55 {
+  width: 55%;
+}
+
+.wd60 {
+  width: 60%;
+}
+
+.wd65 {
+  width: 65%;
+}
+
+.wd70 {
+  width: 70%;
+}
+
+.wd75 {
+  width: 75%;
+}
+
+.wd80 {
+  width: 80%;
+}
+
+.wd85 {
+  width: 85%;
+}
+
+.wd90 {
+  width: 90%;
+}
+
+.wd95 {
+  width: 95%;
+}
+
+.wd100 {
+  width: 100%;
+}
+/*text*/
+.text_green {
+  background: url(../assets/images/green.png) repeat no-repeat bottom;
+}
+.text_blue {
+  background: url(../assets/images/blue.png) repeat no-repeat bottom;
+}
+.text_green_ {
+  background: url(../assets/images/green2.png) repeat no-repeat bottom;
+}
+.text_pink {
+  background: url(../assets/images/pink1.png) repeat no-repeat bottom;
+}
+.text_pink_ {
+  background: url(../assets/images/pink2.png) repeat no-repeat bottom;
+}
+.text_red {
+  background: url(../assets/images/red1.png) repeat no-repeat bottom;
+}
+.text_red_ {
+  background: url(../assets/images/red2.png) repeat no-repeat bottom;
+}
+.text_yellow {
+  background: url(../assets/images/yellow1.png) repeat no-repeat bottom;
+}
+.text_yellow_ {
+  background: url(../assets/images/yellow2.png) repeat no-repeat bottom;
+}
+.text_orange {
+  background: url(../assets/images/orange.png) repeat no-repeat bottom;
+}
+.ff_default {
+  font-family: "微軟正黑體", "Arial";
+}
+
+.fz10 {
+  font-size: 1em;
+}
+
+.fz12 {
+  font-size: 1.2em;
+}
+
+.fz14 {
+  font-size: 1.4em;
+}
+
+.fz16 {
+  font-size: 1.5em;
+}
+
+.fz18 {
+  font-size: 1.8em;
+}
+
+.fz20 {
+  font-size: 2em;
+}
+
+.fz22 {
+  font-size: 2.2em;
+}
+
+.fz24 {
+  font-size: 2.4em;
+}
+
+.fz26 {
+  font-size: 2.6em;
+}
+
+.fz28 {
+  font-size: 2.8em;
+}
+
+.fz30 {
+  font-size: 3em;
+}
+
+.fontc {
+  text-align: center;
+}
+
+.fontr {
+  text-align: right;
+}
+
+.fontl {
+  text-align: left;
+}
+/*weight*/
+
+.fw800 {
+  font-weight: 800;
+  /* = bold*/
+}
+
+.fw900 {
+  font-weight: 900;
+}
+/*color*/
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+.darkgray {
+  color: rgb(66, 66, 66);
+}
+.red {
+  color: rgb(247, 168, 168);
+}
+
+.yellow {
+  color: rgb(255, 255, 119);
+}
+
+.green {
+  color: rgb(91, 146, 91);
+}
+
+.orange {
+  color: rgb(223, 186, 117);
+}
+
+.blue {
+  color: rgb(164, 164, 238);
+}
+
+.purple {
+  color: rgb(190, 146, 190);
+}
+/*----- position -----*/
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.ml20 {
+  margin-left: 20%;
+}
+
+.ml15 {
+  margin-left: 15%;
+}
+
+.ml10 {
+  margin-left: 10%;
+}
+
+.ml7_5 {
+  margin-left: 7.5%;
+}
+
+.ml5 {
+  margin-left: 5%;
+}
+
+.mr20 {
+  margin-right: 20%;
+}
+
+.mr15 {
+  margin-right: 15%;
+}
+
+.mr10 {
+  margin-right: 10%;
+}
+
+.mr5 {
+  margin-right: 5%;
+}
+
+.mr2 {
+  margin-right: 2%;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt8 {
+  padding-top: 8px;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+
+.pt3 {
+  padding-top: 3px;
+}
+
+.pt2 {
+  padding-top: 2px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.pb8 {
+  padding-bottom: 8px;
+}
+
+.pb5 {
+  padding-bottom: 5px;
+}
+
+.pb3 {
+  padding-bottom: 3px;
+}
+
+.pb2 {
+  padding-bottom: 2px;
+}
+
+.pl20 {
+  padding-left: 20%;
+}
+
+.pl15 {
+  padding-left: 15%;
+}
+
+.pl10 {
+  padding-left: 10%;
+}
+
+.pl5 {
+  padding-left: 5%;
+}
+
+.pl2 {
+  padding-left: 2%;
+}
+
+.pr20 {
+  padding-right: 20%;
+}
+
+.pr15 {
+  padding-right: 15%;
+}
+
+.pr10 {
+  padding-right: 10%;
+}
+
+.pr5 {
+  padding-right: 5%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.static {
+  position: static;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+/* -----------------------------------------------*/
+/* PAD( 768px <= Screen <= 1028px 套用以下CSS)-----*/
+/* -----------------------------------------------*/
+
+@media (max-width: 768px) and (max-width: 1028px) {
+  /*----- style -----*/
+  .pad_wd5 {
+    width: 5%;
+  }
+  .pad_wd10 {
+    width: 10%;
+  }
+  .pad_wd15 {
+    width: 15%;
+  }
+  .pad_wd20 {
+    width: 20%;
+  }
+  .pad_wd25 {
+    width: 25%;
+  }
+  .pad_wd30 {
+    width: 30%;
+  }
+  .pad_wd35 {
+    width: 35%;
+  }
+  .pad_wd40 {
+    width: 40%;
+  }
+  .pad_wd45 {
+    width: 45%;
+  }
+  .pad_wd50 {
+    width: 50%;
+  }
+  .pad_wd55 {
+    width: 55%;
+  }
+  .pad_wd60 {
+    width: 60%;
+  }
+  .pad_wd65 {
+    width: 65%;
+  }
+  .pad_wd70 {
+    width: 70%;
+  }
+  .pad_wd75 {
+    width: 75%;
+  }
+  .pad_wd80 {
+    width: 80%;
+  }
+  .pad_wd85 {
+    width: 85%;
+  }
+  .pad_wd90 {
+    width: 90%;
+  }
+  .pad_wd95 {
+    width: 95%;
+  }
+  .pad_wd100 {
+    width: 100%;
+  }
+  /*----- position -----*/
+  .pad_mt20 {
+    margin-top: 20%;
+  }
+  .pad_mt15 {
+    margin-top: 15%;
+  }
+  .pad_mt10 {
+    margin-top: 10%;
+  }
+  .pad_mt5 {
+    margin-top: 5%;
+  }
+  .pad_ml20 {
+    margin-left: 20%;
+  }
+  .pad_ml15 {
+    margin-left: 15%;
+  }
+  .pad_ml10 {
+    margin-left: 10%;
+  }
+  .pad_ml5 {
+    margin-left: 5%;
+  }
+  .pad_mr20 {
+    margin-right: 20%;
+  }
+  .pad_mr15 {
+    margin-right: 15%;
+  }
+  .pad_mr10 {
+    margin-right: 10%;
+  }
+  .pad_mr5 {
+    margin-right: 5%;
+  }
+  .pad_fixed {
+    position: fixed;
+  }
+  .pad_absolute {
+    position: absolute;
+  }
+  .pad_relative {
+    position: relative;
+  }
+  .pad_static {
+    position: static;
+  }
+  .pad_fl {
+    float: left;
+  }
+  .pad_fr {
+    float: right;
+  }
+  .pad_clear {
+    clear: both;
+  }
+  .pad_hide {
+    display: none;
+  }
+}
+/* -----------------------------------------------*/
+/* SMALL_PAD( 481px <= Screen <= 767px 套用以下CSS )*/
+/* -----------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*----- style -----*/
+  .spad_wd5 {
+    width: 5%;
+  }
+  .spad_wd10 {
+    width: 10%;
+  }
+  .spad_wd15 {
+    width: 15%;
+  }
+  .spad_wd20 {
+    width: 20%;
+  }
+  .spad_wd25 {
+    width: 25%;
+  }
+  .spad_wd30 {
+    width: 30%;
+  }
+  .spad_wd35 {
+    width: 35%;
+  }
+  .spad_wd40 {
+    width: 40%;
+  }
+  .spad_wd45 {
+    width: 45%;
+  }
+  .spad_wd50 {
+    width: 50%;
+  }
+  .spad_wd55 {
+    width: 55%;
+  }
+  .spad_wd60 {
+    width: 60%;
+  }
+  .spad_wd65 {
+    width: 65%;
+  }
+  .spad_wd70 {
+    width: 70%;
+  }
+  .spad_wd75 {
+    width: 75%;
+  }
+  .spad_wd80 {
+    width: 80%;
+  }
+  .spad_wd85 {
+    width: 85%;
+  }
+  .spad_wd90 {
+    width: 90%;
+  }
+  .spad_wd95 {
+    width: 95%;
+  }
+  .spad_wd100 {
+    width: 100%;
+  }
+  /*----- position -----*/
+  .spad_mt20 {
+    margin-top: 20%;
+  }
+  .spad_mt15 {
+    margin-top: 15%;
+  }
+  .spad_mt10 {
+    margin-top: 10%;
+  }
+  .spad_mt5 {
+    margin-top: 5%;
+  }
+  .spad_ml20 {
+    margin-left: 20%;
+  }
+  .spad_ml15 {
+    margin-left: 15%;
+  }
+  .spad_ml10 {
+    margin-left: 10%;
+  }
+  .spad_ml5 {
+    margin-left: 5%;
+  }
+  .spad_mr20 {
+    margin-right: 20%;
+  }
+  .spad_mr15 {
+    margin-right: 15%;
+  }
+  .spad_mr10 {
+    margin-right: 10%;
+  }
+  .spad_mr5 {
+    margin-right: 5%;
+  }
+  .spad_fixed {
+    position: fixed;
+  }
+  .spad_absolute {
+    position: absolute;
+  }
+  .spad_relative {
+    position: relative;
+  }
+  .spad_static {
+    position: static;
+  }
+  .spad_fl {
+    float: left;
+  }
+  .spad_fr {
+    float: right;
+  }
+  .spad_clear {
+    clear: both;
+  }
+  .spad_hide {
+    display: none;
+  }
+}
+/* -----------------------------------------------*/
+/* PHONE( 361px <= Screen <= 480px 套用以下CSS )---*/
+/* -----------------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+  /*----- style -----*/
+  .ph_wd5 {
+    width: 5%;
+  }
+  .ph_wd10 {
+    width: 10%;
+  }
+  .ph_wd15 {
+    width: 15%;
+  }
+  .ph_wd20 {
+    width: 20%;
+  }
+  .ph_wd25 {
+    width: 25%;
+  }
+  .ph_wd30 {
+    width: 30%;
+  }
+  .ph_wd35 {
+    width: 35%;
+  }
+  .ph_wd40 {
+    width: 40%;
+  }
+  .ph_wd45 {
+    width: 45%;
+  }
+  .ph_wd50 {
+    width: 50%;
+  }
+  .ph_wd55 {
+    width: 55%;
+  }
+  .ph_wd60 {
+    width: 60%;
+  }
+  .ph_wd65 {
+    width: 65%;
+  }
+  .ph_wd70 {
+    width: 70%;
+  }
+  .ph_wd75 {
+    width: 75%;
+  }
+  .ph_wd80 {
+    width: 80%;
+  }
+  .ph_wd85 {
+    width: 85%;
+  }
+  .ph_wd90 {
+    width: 90%;
+  }
+  .ph_wd95 {
+    width: 95%;
+  }
+  .ph_wd100 {
+    width: 100%;
+  }
+  /*----- position -----*/
+  .ph_hide {
+    display: none;
+  }
+  .ph_fl {
+    float: left;
+  }
+  .ph_mr15 {
+    margin-right: 15%;
+  }
+  .ph_mr10 {
+    margin-right: 10%;
+  }
+  .ph_mr5 {
+    margin-right: 5%;
+  }
+  .ph_mr3 {
+    margin-right: 3%;
+  }
+  .ph_ml20 {
+    margin-left: 20%;
+  }
+  .ph_ml10 {
+    margin-left: 10%;
+  }
+  .ph_ml15 {
+    margin-left: 15%;
+  }
+  .ph_ml5 {
+    margin-left: 5%;
+  }
+  .ph_ml0 {
+    margin-left: 0%;
+  }
+  .ph_ml3 {
+    margin-left: 3%;
+  }
+  .ph_mt20 {
+    margin-top: 20px;
+  }
+  .ph_mt15 {
+    margin-top: 15px;
+  }
+  .ph_mt10 {
+    margin-top: 10px;
+  }
+  .ph_mt8 {
+    margin-top: 8px;
+  }
+  .ph_mt5 {
+    margin-top: 5px;
+  }
+  .ph_mt0 {
+    margin-top: 0px;
+  }
+  .ph_pt20 {
+    padding-top: 20%;
+  }
+  .ph_pt15 {
+    padding-top: 15%;
+  }
+  .ph_pt10 {
+    padding-top: 10%;
+  }
+  .ph_pt8 {
+    padding-top: 10%;
+  }
+  .ph_pt5 {
+    padding-top: 5%;
+  }
+  .ph_pt3 {
+    padding-top: 3%;
+  }
+  .ph_pt2 {
+    padding-top: 2%;
+  }
+  .ph_pl2 {
+    padding-left: 2%;
+  }
+  .ph_fixed {
+    position: fixed;
+  }
+  .ph_absolute {
+    position: absolute;
+  }
+  .ph_relative {
+    position: relative;
+  }
+  .ph_static {
+    position: static;
+  }
+  .ph_fl {
+    float: left;
+  }
+  .ph_fr {
+    float: right;
+  }
+  .ph_clear {
+    clear: both;
+  }
+  .ph_hide {
+    display: none;
+  }
+}
+/* -----------------------------------------------*/
+/* SMALL_PHONE( Screen <= 360px 套用以下CSS )------*/
+/* -----------------------------------------------*/
+
+@media only screen and (max-width: 360px) {
+  /*----- style -----*/
+  .sph_wd5 {
+    width: 5%;
+  }
+  .sph_wd10 {
+    width: 10%;
+  }
+  .sph_wd15 {
+    width: 15%;
+  }
+  .sph_wd20 {
+    width: 20%;
+  }
+  .sph_wd25 {
+    width: 25%;
+  }
+  .sph_wd30 {
+    width: 30%;
+  }
+  .sph_wd35 {
+    width: 35%;
+  }
+  .sph_wd40 {
+    width: 40%;
+  }
+  .sph_wd45 {
+    width: 45%;
+  }
+  .sph_wd50 {
+    width: 50%;
+  }
+  .sph_wd55 {
+    width: 55%;
+  }
+  .sph_wd60 {
+    width: 60%;
+  }
+  .sph_wd65 {
+    width: 65%;
+  }
+  .sph_wd70 {
+    width: 70%;
+  }
+  .sph_wd75 {
+    width: 75%;
+  }
+  .sph_wd80 {
+    width: 80%;
+  }
+  .sph_wd85 {
+    width: 85%;
+  }
+  .sph_wd90 {
+    width: 90%;
+  }
+  .sph_wd95 {
+    width: 95%;
+  }
+  .sph_wd100 {
+    width: 100%;
+  }
+  /*----- position -----*/
+  .sph_mr15 {
+    margin-right: 15%;
+  }
+  .sph_mr10 {
+    margin-right: 10%;
+  }
+  .sph_mr5 {
+    margin-right: 5%;
+  }
+  .sph_mr3 {
+    margin-right: 3%;
+  }
+  .sph_ml20 {
+    margin-left: 20%;
+  }
+  .sph_ml10 {
+    margin-left: 10%;
+  }
+  .sph_ml15 {
+    margin-left: 15%;
+  }
+  .sph_ml5 {
+    margin-left: 5%;
+  }
+  .sph_ml3 {
+    margin-left: 3%;
+  }
+  .sph_mt20 {
+    margin-top: 20px;
+  }
+  .sph_mt15 {
+    margin-top: 15px;
+  }
+  .sph_mt10 {
+    margin-top: 10px;
+  }
+  .sph_mt5 {
+    margin-top: 5px;
+  }
+  .sph_mt0 {
+    margin-top: 0px;
+  }
+  .sph_fixed {
+    position: fixed;
+  }
+  .sph_absolute {
+    position: absolute;
+  }
+  .sph_relative {
+    position: relative;
+  }
+  .sph_static {
+    position: static;
+  }
+  .sph_fl {
+    float: left;
+  }
+  .sph_fr {
+    float: right;
+  }
+  .sph_clear {
+    clear: both;
+  }
+  .sph_hide {
+    display: none;
+  }
+}
