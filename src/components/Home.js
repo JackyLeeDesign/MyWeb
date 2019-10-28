@@ -3,6 +3,7 @@ const TopInfo = React.lazy(() => import("./TopInfo"));
 const SideIcon = React.lazy(() => import("./SideIcon"));
 const MainContent = React.lazy(() => import("./mainContent/HomeContent"));
 const AboutContent = React.lazy(() => import("./mainContent/AboutContent"));
+const MusicContent = React.lazy(() => import("./mainContent/MusicContent"));
 const BottomInfo = React.lazy(() => import("./BottomInfo"));
 import { observer, inject } from "mobx-react";
 import PropTypes from "prop-types";
@@ -12,6 +13,8 @@ const changePage = pageNum => {
       return <MainContent />;
     case 1:
       return <AboutContent />;
+    case 2:
+      return <MusicContent />;
     default:
       return <MainContent />;
   }
