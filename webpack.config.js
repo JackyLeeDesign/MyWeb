@@ -3,13 +3,13 @@ const webpack = require("webpack");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
     // `path` is the folder where Webpack will place your bundles
     path: path.resolve(__dirname, "./dist"),
     // `publicPath` is where Webpack will load your bundles from (optional)
     publicPath: "/dist/",
     // `chunkFilename` provides a template for naming code-split bundles (optional)
-    chunkFilename: "bundle.js"
+    chunkFilename: "[name].bundle.js"
   },
   module: {
     rules: [
