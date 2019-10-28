@@ -4,6 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "npm run dev": "node server.js",
+    "heroku-postbuild": "webpack -p",
     "start": "npx webpack --config webpack.config.js",
     "test": "jest",
     "start:server": "webpack-dev-server --hot"
