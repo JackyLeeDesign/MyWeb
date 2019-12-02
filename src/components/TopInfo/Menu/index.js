@@ -1,6 +1,10 @@
 import React from "react";
 // get our fontawesome imports
-import { faMedal, faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMedal,
+  faEnvelopeOpenText,
+  faMusic
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import style from "./index.css";
 import { inject, observer } from "mobx-react";
@@ -21,15 +25,19 @@ const Menu = props => {
         >
           {props.name}
         </div>
-        {/* <div className={style.pointercurserRight}>
-          <FontAwesomeIcon icon={faUserTie} />
-        </div> */}
         <div className={style.pointercurserRight}>
           <FontAwesomeIcon
             icon={faEnvelopeOpenText}
             onClick={() => changePageStore.changeState(1)}
           />
         </div>
+        <div className={style.pointercurserRight}>
+          <FontAwesomeIcon
+            icon={faMusic}
+            onClick={() => changePageStore.changeState(2)}
+          />
+        </div>
+
         <div className={style.clear} />
         <div
           className={style.meterleft}
