@@ -37,7 +37,7 @@ import React, { Suspense, lazy } from "react";
 import Home from "../Home";
 import TopInfo from "../TopInfo";
 import SideIcon from "../SideIcon";
-import BottomInfo from "c:/Users/Jacky.lee/Desktop/MusicWeb/src/components/BottomInfo";
+import BottomInfo from "../BottomInfo";
 import HomeContent from "../mainContent/HomeContent";
 import AboutContent from "../mainContent/AboutContent";
 import LoadingHome from "../LoadingHome";
